@@ -85,9 +85,11 @@ https://65.2.177.28
 
 Final Page Output:
 Nginx with SSL is working!
-![Screenshot1](images/screenshot1.png)
-![Screenshot2](images/screenshot2.png)
-![Screenshot3](images/screenshot3.png)
+![Screenshot1](images/task-1.png)
+![Screenshot2](images/task-1.1.png)
+![Screenshot3](images/task-1.3.png)
+![Screenshot3](images/task-2.png)
+![Screenshot3](images/task-2.2.png)
 
                     📑 Task 3 — Server Response from Upstream Server using Nginx & Apache
 
@@ -150,10 +152,9 @@ Step 5: Browser Test
 Open in browser:
 https://65.2.177.28
 
-![Screenshot4](images/screenshot4.png)
-![Screenshot5](images/screenshot5.png)
-![Screenshot6](images/screenshot6.png)
-![Screenshot7](images/screenshot7.png)
+![Screenshot4](images/task-3.png)
+![Screenshot5](images/3.1.png)
+
 
 
 
@@ -172,7 +173,7 @@ sudo nano /etc/hosts
 Added lines:
 127.0.0.1 one.local
 127.0.0.1 two.local
-![Screenshot8](images/screenshot8.png)
+![Screenshot8](images/task-4.png)
 
 🔹 Step 2: Nginx Configuration for Redirect
 
@@ -202,7 +203,7 @@ server {
     }
 }
 
-![Screenshot9]("images/screenshot9.png")
+![Screenshot9]("images/task-4.1.png")
 
 
 
@@ -219,7 +220,7 @@ Expected Output:
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 
-![Screenshot10]("images/screenshot10.png")
+![Screenshot10]("images/task-4.2.png")
 
 
 Step 4: Verify Redirect
@@ -239,7 +240,8 @@ curl http://two.local
 Expected Output:
 <h1>This is TWO.LOCAL page</h1>
 
-![Screenshot11]("images/screenshot11.png")
+![Screenshot11]("images/task-4.3.png")
+![Screenshot3](images/task-4.4.png)
 
 
 
